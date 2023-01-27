@@ -16,8 +16,18 @@
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.5",
     "next": "13.1.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "4.9.4"
-  }
+    "preact": "latest",
+    "preact-compat": "latest",
+    "typescript": "4.9.4",
+    "zustand": "latest",
+    "keycloak-js": "latest",
+    "axios": "latest"
+  },  "devDependencies": {
+  "@types/node": "latest",
+  "@types/react": "latest",
+  "@types/preact": "latest",
+  "jest": "latest",
+  "ts-jest": "latest",
+  "typescript": "latest"
+}
 }
