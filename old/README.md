@@ -6,9 +6,3 @@
 - Python FRONT SSR with Bootrstrap ==> Next JS SSR with preact, zustand and Bulma
 - Python API ==> Strapi
 - MariaDB ==> MongoDB
-
-
-## Idees
-
-- Gerer les variables d'env avec git ?
-- 

@@ -1,0 +1,36 @@
+{
+  "name": "front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.5",
+    "@types/node": "18.11.18",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.5",
+    "next": "13.1.5",
+    "preact": "latest",
+    "preact-compat": "latest",
+    "typescript": "4.9.4",
+    "zustand": "latest",
+    "axios": "latest"
+  },  "devDependencies": {
+  "@zeit/next-typescript": "^5.0.0",
+  "next-compose-plugins": "^3.0.4",
+  "next-plugin-preact": "^1.0.0",
+  "next-preact-compat": "^3.0.2",
+  "eslint": "8.32.0",
+  "eslint-config-next": "13.1.5",
+  "next": "13.1.5",
+  "typescript": "4.9.4",
+  "@types/node": "latest",
+  "@types/preact": "latest",
+  "jest": "latest",
+  "ts-jest": "latest"
+}
+}

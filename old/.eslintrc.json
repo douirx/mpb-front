@@ -1,0 +1,7 @@
+{
+  "extends": ["next/config/eslint"],
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"]
+  }
+}
