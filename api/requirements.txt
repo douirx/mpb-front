@@ -1,0 +1,7 @@
+flask
+flask-cors
+jsons
+flask_httpauth
+mariadb
+pyopenssl
+gunicorn

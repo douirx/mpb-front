@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Generate a Token</title>
+    <script> const agent = "{{ agent }}"; console.log(agent); </script>
+    <script src="{{ url_for('static',filename='js/token.js') }}"></script>
+
+</head>
+<body>
+
+<h1>Générer un Token</h1>
+
+  <h5 id="e-nom" class="error">Le nom saisit est incorrect</h5>
+    <p>
+        <label for="p-nom">Nom : </label>
+        <input type="text" id="p-nom" placeholder="ex : Dupond" minlength="1" maxlength="40">
+    </p>
+
+  <h5 id="e-prenom" class="error">Le prénom saisit est incorrect</h5>
+    <p>
+        <label for="p-prenom">Prénom : </label>
+        <input type="text" id="p-prenom" placeholder="ex : Antoine" minlength="1" maxlength="40">
+    </p>
+
+<button id="btn-token">Générer Token</button>
+<br>
+<h3 id="url-token"></h3>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bookmaker - MPB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/bootstrap.min.css') }}">
+    <script src="{{ url_for('static',filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>
+    <link href= "{{ url_for('static',filename='styles/home.css') }}" rel="stylesheet">
+</head>
+<body>
+
+{% include 'fragments/menu.html' %}
+
+<header class="bookies">
+    <div class="container text-center">
+        <img class="bookmakers" src="{{ url_for('static',filename=fname)}}" Width ="100% auto">
+    </div>
+</header>
+
+
+<main>
+    <h1 class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <section class="py-5">
+                        <div class="card">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs bologna-list" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#Book2" data-toggle="tab"><h4>Book</h4></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#Bonus2" data-toggle="tab"><h4>Bonus</h4></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#Parrain2" data-toggle="tab"><h4>Parrain</h4></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-body">
+                                <div class="tab-content mt-3">
+
+                                    <div class="tab-pane active" id="Book2" role="tabpanel">
+                                        <p class="card-text"></p>
+                                        <div class="card-body bookmakers ">
+                                            {% include 'fragments/pres.html' %}
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane" id="Bonus2" role="tabpanel">
+                                        <p class="card-text">
+                                        </p>
+                                        <div class="card-body bookmakers">
+                                             {% include 'fragments/bonus.html' %}
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane" id="Parrain2" role="tabpanel">
+                                        <p class="card-text">
+                                        </p>
+                                        <div class="card-body bookmakers">
+                                             {% include 'fragments/parrain.html' %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <br>
+                </div>
+            <div class="col-sm-4">
+                {% include 'fragments/aside.html' %}
+            </div>
+
+
+        </div>
+    </h1>
+
+</main>
+
+{% include 'fragments/footer.html' %}
+
+</body>
+</html>

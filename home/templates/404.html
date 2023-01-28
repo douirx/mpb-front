@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Débutant - MPB</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/bootstrap.min.css') }}">
+    <script src="{{ url_for('static',filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>
+    <link href= "{{ url_for('static',filename='styles/home.css') }}" rel="stylesheet">
+</head>
+<body>
+
+{% include 'fragments/menu.html' %}
+
+{% include 'fragments/headerC.html' %}
+
+<main>
+    <h1 class="container">
+        <div class="row">
+            <div class="col-sm-8 basicd">
+                <!-- Partie à compléter avec le txt Mentions -->
+                <h1>La page demandée n'a pu être trouvée</h1>
+
+            </div>
+                 <div class="col-sm-4">
+                {% include 'fragments/aside.html' %}
+            </div>
+
+        </div>
+    </h1>
+</main>
+
+{% include 'fragments/footer.html' %}
+
+
+
+</body>
+</html>

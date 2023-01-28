@@ -1,0 +1,6 @@
+flask
+flask_httpauth
+jsons
+requests
+pyopenssl
+gunicorn

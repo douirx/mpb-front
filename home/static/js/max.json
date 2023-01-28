@@ -1,0 +1,30 @@
+{
+  perso:{
+    animal: "prisca",
+    email: "maxenceluttringer@hotmail.fr",
+    male: true,
+    mobile: "0636933935",
+    nom: "Luttringer",
+    nom2: "",
+    prenom: "Maxence",
+    prenoms: "Maxence"
+  },
+  home:{
+    adresse1: "28 rue du quesne",
+    adresse2: "",
+    city: "Fleurbaix",
+    codeP: "62840",
+    country: "france"
+  },
+  birth:{
+    bcity: "Lille",
+    bcodeP: "59000",
+    bcountry: "France",
+    bdate: "13/02/1998"
+  },
+  pay:{
+    bic: "TRZOFR21XXX",
+    iban: "FR7616798000010000261077852",
+    payment: "cb"
+  }
+}

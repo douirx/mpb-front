@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+    <title>Accueil - MPB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/bootstrap.min.css') }}">
+    <script src="{{ url_for('static',filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>
+    <link href= "{{ url_for('static',filename='styles/home.css') }}" rel="stylesheet">
+</head>
+<body>
+
+{% include 'fragments/menu.html' %}
+{% include 'fragments/header.html' %}
+
+<main>
+    <h1 class="container">
+        <div class="row">
+            <div class="col-sm-8 index">
+                    <p>Découvrez sur notre site l'ensemble des offres promotionelles des Bookmakers agrées par l'ARJEL.</p>
+                    <p>Dans la section débutant, vous trouverez quelques articles pour vous aider à comprendre, sur quoi portent les offres</p>
+            </div>
+            <div class="col-sm-4">
+                {% include 'fragments/aside.html' %}
+            </div>
+
+    </div>
+    </h1>
+</main>
+
+
+{% include 'fragments/footer.html' %}
+
+</body>
+</html>

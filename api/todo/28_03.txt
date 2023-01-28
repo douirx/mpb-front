@@ -1,0 +1,22 @@
+Rajouter la partie agent
+
+//rajouter la partie agent dans la partie perso
+//inclure dans la génération de token que l'agent soit le bon
+//réfléchir à un système pour avoir plusieurs agents
+
+
+Formulaire Fake
+
+On doit rentrer le pseudo du gars
+On doit avoir un bouton pour véifier si le gars est dans la bdd
+On doit pouvoir updater/envoyer les datas sur le serveur
+
+Robot
+
+Objectif inscription RDJ ajd
+//WIP Compte nickel de Clement
+
+
+Demain
+
+Faire les 3 sites

@@ -1,0 +1,15 @@
+On injecte le cash par PaysafeCard
+On sort le cash par mps ou direct avec la carte en cash
+On doit inclure :
+
+- création du compte nickel
+- récupération de la cb en bureau de tabac
+- inscirption sur l'espace client
+- recuperation par Julio des codes nickel\
+- commande / installation du VPN
+- creation de l'adress mail
+- creation du numéro ON OFF
+- mise à jour de l'inscription avec user 1 et user 2 (client/serveur)
+
+
+plus tard on fera un vrai bail en svelte coté front

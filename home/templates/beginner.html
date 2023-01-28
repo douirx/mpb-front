@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Débutant - MPB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/bootstrap.min.css') }}">
+    <script src="{{ url_for('static',filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>
+    <link href= "{{ url_for('static',filename='styles/home.css') }}" rel="stylesheet">
+</head>
+<body>
+
+{% include 'fragments/menu.html' %}
+
+{% if img is not none %}
+    {% if img == 0 %}
+        {% include 'fragments/headerart0.html' %}
+    {% else %}
+        {% include 'fragments/headerart1.html' %}
+    {% endif %}
+{% else %}
+    <h1>Probleme de Header</h1>
+{% endif %}
+
+
+
+<main>
+        <h1 class="container">
+            <div class="row">
+                <div class="col-sm-8 beginners">
+                    {% include 'fragments/beginners.html' %}
+                </div>
+
+               <div class="col-sm-4">
+                {% include 'fragments/aside.html' %}
+            </div>
+
+
+            </div>
+        </h1>
+</main>
+
+{% include 'fragments/footer.html' %}
+
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Handle Fake Infos</title>
+    <script src="{{ url_for('static',filename='js/fake.js') }}"></script>
+</head>
+<body>
+
+<h1>Complément d'infos</h1>
+
+<div id="req">
+
+<h5 id="e-pseudo" class="error">Le pseudo saisit est incorrect</h5>
+    <p>
+        <label for="p-pseudo">Pseudo : </label>
+        <input type="text" id="p-pseudo" placeholder="ex : leroy" minlength="1" maxlength="40">
+    </p>
+
+<button id="btn-pseudo">Check Pseudo</button>
+
+</div>
+
+
+    <div id="data">
+<h4 id="d1">Data Found !</h4>
+<h4 id="d2">Pseudo exists but no Data Found !</h4>
+<h4 id = "d3">Pseudo does not exist !</h4>
+    </div>
+
+<div id="res">
+
+<h5 id="e-email" class="error">L'email saisit est incorrect</h5>
+    <p>
+        <label for="p-email">Email : </label>
+        <input type="text" id="p-email" placeholder="ex : clem.d@gmail.com" minlength="1" maxlength="30">
+    </p>
+
+<h5 id="e-indicatif" class="error">L'indicatif saisit est incorrect</h5>
+    <p>
+        <label for="p-indicatif">Indicatif : +</label>
+        <input type="text" id="p-indicatif" placeholder="ex : +33" minlength="1" maxlength="3">
+    </p>
+
+<h5 id="e-mobile" class="error">Le mobile saisit est incorrect</h5>
+    <p>
+        <label for="p-mobile">Mobile : </label>
+        <input type="text" id="p-mobile" placeholder="ex : 0601020304" minlength="1" maxlength="10">
+    </p>
+
+<h5 id="e-pwd" class="error">Le mot de passe saisit est incorrect</h5>
+    <p>
+        <label for="p-pwd">Mot de Passe (Min Longueur 8, 1 caractère spécial et un chiffre): </label>
+        <input type="text" id="p-pwd" placeholder="ex : Paris25?" minlength="1" maxlength="35">
+    </p>
+
+        <h5 id="e-iban" class="error">L'iban saisit est incorrect</h5>
+    <p>
+        <label for="p-iban">IBAN : </label>
+        <input type="text" id="p-iban" placeholder="ex : FR35000000" minlength="10" maxlength="35">
+    </p>
+
+        <h5 id="e-bic" class="error">Le code BIC saisit est incorrect</h5>
+    <p>
+        <label for="p-bic">BIC : </label>
+        <input type="text" id="p-bic" placeholder="ex : CRLYFRPP" minlength="5" maxlength="11">
+    </p>
+
+    <h5 id="e-animal" class="error">L'animal saisit est incorrect</h5>
+    <p>
+        <label for="p-animal">Animal : </label>
+        <input type="text" id="p-animal" placeholder="ex : Jojo" minlength="1" maxlength="35">
+    </p>
+
+    <h5 id="e-idpmu" class="error">L'idpmu saisit est incorrect</h5>
+    <p>
+        <label for="p-idpmu">idPmu : </label>
+        <input type="text" id="p-idpmu" placeholder="ex : 307510" minlength="6" maxlength="6">
+    </p>
+
+
+<button id="btn-validate">Valider la Saisie</button>
+</div>
+
+<h3 id="end">Saisie Validée</h3>
+
+
+</body>
+</html>

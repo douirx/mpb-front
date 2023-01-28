@@ -1,0 +1,5 @@
+host:monpetitbet.fr
+port:6600
+user:mdb
+password:abc123fg
+database:client

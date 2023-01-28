@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org">
+
+ <nav th:fragment="menu">
+        <div class="container" id="container-main">
+
+            <div class="navbar-header">
+                <img class="logo"
+                     src="img/logo.jpg">
+                <a class="navbar-brand" href="/">
+                    MonPetitBet</a>
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mpbNavBar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        <div class="collapse navbar-collapse" id="mpbNavBar">
+            <ul class="nav navbar-nav text-center mpbup">
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Bookmakers <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/bookmaker?name=betclic">Betclic</a></li>
+                        <li><a href="/bookmaker?name=winamax">Winamax</a></li>
+                        <li><a href="/bookmaker?name=unibet">Unibet</a></li>
+                        <li><a href="/bookmaker?name=barriere-bet">Barrière Bet</a></li>
+                        <li><a href="/bookmaker?name=parions-sport">Parions Sport</a></li>
+                        <li><a href="/bookmaker?name=bwin">Bwin</a></li>
+                        <li><a href="/bookmaker?name=zebet">Zebet</a></li>
+                        <li><a href="/bookmaker?name=pmu">PMU</a></li>
+                        <li><a href="/bookmaker?name=pokerstars">PokerStars</a></li>
+                        <li><a href="/bookmaker?name=france-pari">France-Pari</a></li>
+                        <li><a href="/bookmaker?name=vbet">Vbet</a></li>
+                        <li><a href="/bookmaker?name=netbet">Netbet</a></li>
+                        <li><a href="/bookmaker?name=genybet">Genybet</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Débutant <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/beginner?name=sports">Les Sports</a></li>
+                        <li><a href="/beginner?name=paris-sportifs">Les Paris Sportifs</a></li>
+                        <li><a href="/beginner?name=bookmakers">Un Bookmaker</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+</div>
+
+    <header th:fragment="headerindex" >
+        <div class="container text-center">
+            <h1>Bienvenue sur MonPetitBet</h1>
+            <p class="lead">Le comparateur sur les offres promotionnelles des bookmakers</p>
+        </div>
+    </header>
+
+ <header th:fragment=="headercommon(title)" class="art1">
+     <div class="container text-center">
+         <h1 th:text="${title}">Titre de niveau 1</h1>
+     </div>
+ </header>
+
+
+
+
+
+ <div th:fragment="aside">
+     <h2 class="text-center">Les Meilleurs Bookmakers</h2>
+     <br>
+     <!--
+     <p class="text-center"><img src="../img/betclic.png"width="375"></p>
+     <br>
+     -->
+     <p class="text-center"><a target="_blank" href="http://ga-bwin.monpetitbet.fr"><img src="../img/bwin.png" width="375"></a></p>
+     <br>
+     <p class="text-center"><a target="_blank" href="http://ga-feeling.monpetitbet.fr"><img src="../img/feeling.png" width="375"></a></p>
+     <br>
+	 <p class="text-center"><a target="_blank" href="http://ga-fparis.monpetitbet.fr"><img src="../img/fparis.png" width="375"></a></p>
+     <br>
+     <p class="text-center"><a target="_blank" href="http://ga-genybet.monpetitbet.fr"><img src="../img/genybet.png" width="375"></a></p>
+     <br>
+     <p class="text-center"><a target="_blank" href="http://ga-joa.monpetitbet.fr"><img src="../img/joa.jpg" width="375"></a></p>
+     <br>
+     <p class="text-center"><a target="_blank" href="http://ga-psport.monpetitbet.fr"><img src="../img/psport.png" width="375"></a></p>
+     <br>
+     <p class="text-center"><a target="_blank" href="http://ga-pmu.monpetitbet.fr"><img src="../img/pmu.jpg" width="375"></a></p>
+     <br>
+     <p class="text-center"><a target="_blank" href="http://ga-unibet.monpetitbet.fr"><img src="../img/uni.png" width="375"></a></p>
+     <br>
+     <!--
+     <p class="text-center"><img src="../img/winamax.png"width="375"></p>
+     <br>
+     -->
+
+ </div>
+
+
+<footer th:fragment="footer">
+    <div class="container-fluid footcontainer">
+            <div class="hestia-bottom-footer-content">
+                <ul id="menu-footer" class="footer-menu pull-left">
+                    <li1 id="menu-item-546" class="gauche" align="left"><a href="mailto:contact@monpetitbet.fr"><t>Contact&emsp;&emsp;&emsp;&emsp;</t></a></li1>
+                    <li1 id="menu-item-547" class="centre" align="left" ><a href="/mentions-legales"><t>Mentions Légales&emsp;&emsp;&emsp;&emsp;</t></a></li1>
+            </ul>
+                <div class="copyright pull-right"><t> MonPetitBet 2020-2021</t></div>
+            </div>
+    </div>
+</footer>
+
+
+</html>
