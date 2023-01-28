@@ -1,0 +1,6 @@
+{
+  "extends": ["next/config-eslint"],
+  "rules": {
+    // your custom rules here
+  }
+}
