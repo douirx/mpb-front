@@ -1,0 +1,26 @@
+.correct {
+    min-height: 70px;     /*Hauteur mini pour afficher le contenu */
+    margin-top: 60px;     /* Ajouter un ecart entre notre main et le footer */
+    background-color: #98abeb;
+}
+
+.container {
+    display: flex;     /* Positionnement Flex pour les childs */
+    flex-direction: row;     /*Alignement selon la ligne pour les childs*/
+    justify-content: space-between;     /*Permet de mettre une box a gauche et l'autre a droite*/
+    width: 90%;     /*Permet de laisser un espace a gauche et a droite*/
+    margin-left: 5%;     /*5 pourcent pour l'espace a gauche */
+    margin-right: 5%;     /*5 pourcent pour l'espace a droite*/
+    align-items: center;
+    /**/
+}
+
+.item1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.url1 {
+    margin-right: 10px;
+}

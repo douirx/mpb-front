@@ -1,0 +1,22 @@
+/*Idee 1 : ChatGPT pour savoir si on a fait le taff*/
+/*Idee 2 : Regarder du cote des Themes React */
+
+.correct {
+    min-height: 400px;     /*Hauteur mini pour afficher le contenu */
+    padding-top: 60px;     /* Ajouter un ecart entre notre main et le header */
+}
+
+.container {
+    display: flex;     /* Positionnement Flex pour les childs */
+    flex-direction: row;     /*Alignement selon la ligne pour les childs*/
+    justify-content: space-between;     /*Permet de mettre une box a gauche et l'autre a droite*/
+    width: 90%;     /*Permet de laisser un espace a gauche et a droite*/
+    margin-left: 5%;     /*5 pourcent pour l'espace a gauche */
+    margin-right: 5%;     /*5 pourcent pour l'espace a droite*/
+    /**/
+}
+
+.corpus {
+    min-width: 55%;            /*Permettre de mettre le texte au milieu (je sais comment on pourrait fair mieux)*/
+    margin-top: -8px;     /*Aligner H1 et H2 (Je sais pas comment on pourrait faire mieux)*/
+}

@@ -11,4 +11,8 @@
 ## Idees
 
 - Gerer les variables d'env avec git ?
-- 
+
+## Raccourcis
+
+Indentation : SELECT ALL puis CTRL ALT I
+
